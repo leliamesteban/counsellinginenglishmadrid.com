@@ -1,0 +1,29 @@
+body {
+    margin: 0 20em 0 20em;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a::after {
+    display: inline-block;
+    color: #000;
+    content: '|';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.icon {
+    width: 50px;
+}
